@@ -7,8 +7,11 @@
     <meta name="description" content="Hexagon Calculator - Perimeter and Area">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hexagon Calculator</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io (9)/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io (9)/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io (9)/favicon-16x16.png" />
+    <link rel="manifest" href="./favicon_io (9)/site.webmanifest" />
+    <link rel="stylesheet" href="css/style.css">
   </head>
     <body>
 
@@ -28,7 +31,7 @@
       <p class="info-text">Enter the side length of a regular hexagon to calculate its perimeter and area.</p>
 
       <!-- Hexagon image -->
-      <img src="hexagon_example.png" alt="Hexagon Example">
+      <img src="images/hexagon-gif.png" alt="Hexagon" width="200">
 
     </body>
 </html>
