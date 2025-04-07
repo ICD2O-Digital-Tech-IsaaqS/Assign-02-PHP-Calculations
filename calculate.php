@@ -25,9 +25,9 @@
                 $perimeter = round(6 * $side, 2);
                 $area = round((3 * sqrt(3) / 2) * pow($side, 2), 2);
 
-                echo "Side Length: $side<br>" "cm";
-                echo "Perimeter: $perimeter<br>" "cm";
-                echo "Area: $area" "cm<sup>2</sup>";
+                echo "Side Length: $side cm<br>";
+                echo "Perimeter: $perimeter cm<br>";
+                echo "Area: $area cm<sup>2</sup>";
             } else {
                 echo "Please enter a valid positive side length.";
             }
