@@ -6,8 +6,11 @@
     <meta name="description" content="Hexagon Calculation Results">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hexagon Results</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io (9)/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io (9)/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io (9)/favicon-16x16.png" />
+    <link rel="manifest" href="./favicon_io (9)/site.webmanifest" />>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -22,9 +25,9 @@
                 $perimeter = round(6 * $side, 2);
                 $area = round((3 * sqrt(3) / 2) * pow($side, 2), 2);
 
-                echo "Side Length: $side<br>";
-                echo "Perimeter: $perimeter<br>";
-                echo "Area: $area";
+                echo "Side Length: $side<br>" "cm";
+                echo "Perimeter: $perimeter<br>" "cm";
+                echo "Area: $area" "cm<sup>2</sup>";
             } else {
                 echo "Please enter a valid positive side length.";
             }
