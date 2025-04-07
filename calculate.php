@@ -37,4 +37,4 @@
     <br><a href="index.php">← Back to Calculator</a>
 
 </body>
-</html
+</html>
